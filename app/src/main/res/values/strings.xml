@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">kosmetika</string>
+    <string name="k">k</string>
+    <string name="shop">магазин косметики</string>
+    <string name="discounts">скидки на 50%!</string>
+    <string name="lips">помады</string>
+    <string name="brushes">кисточки</string>
+    <string name="not">not</string>
+</resources>
