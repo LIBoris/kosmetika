@@ -5,15 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/pink"
-    app:layoutDescription="@xml/activity_lipstick_scene"
-    tools:context=".Lipstick">
+    app:layoutDescription="@xml/activity_brush_scene"
+    tools:context=".Brush">
 
     <ImageView
-        android:id="@+id/lipstick"
+        android:id="@+id/brush"
         android:layout_width="230dp"
         android:layout_height="140dp"
+        android:layout_marginTop="30dp"
         android:contentDescription="@string/lips"
-        android:src="@drawable/lipstick"
+        android:src="@drawable/brush"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -22,12 +23,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="100dp"
-        android:text="@string/lips"
+        android:text="@string/brush"
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="100dp"/>
 
     <ImageView
         android:id="@+id/old_price"
@@ -51,7 +52,7 @@
         app:layout_constraintTop_toBottomOf="@id/old_price" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView"
         android:layout_width="75dp"
         android:layout_height="25dp"
         android:layout_marginStart="50dp"
@@ -75,11 +76,12 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageView"
         android:layout_width="406dp"
         android:layout_height="456dp"
         android:contentDescription="@string/cart"
         android:src="@drawable/cart"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
 </androidx.constraintlayout.motion.widget.MotionLayout>

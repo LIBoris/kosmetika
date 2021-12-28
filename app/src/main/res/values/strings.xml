@@ -6,4 +6,9 @@
     <string name="lips">помады</string>
     <string name="brushes">кисточки</string>
     <string name="not">not</string>
+    <string name="price">4 99 руб</string>
+    <string name="buy">купить</string>
+    <string name="back">back</string>
+    <string name="cart">cart</string>
+    <string name="brush">кисть</string>
 </resources>

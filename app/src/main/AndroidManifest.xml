@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Kosmetika">
         <activity
+            android:name=".Brush"
+            android:exported="true" />
+        <activity
             android:name=".Lipstick"
             android:exported="false" />
         <activity
